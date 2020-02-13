@@ -3,34 +3,22 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
+*{
+	box-sizing:border-box;
+	padding:0;
+	margin:0;
+	max-width:100%; 
+	border:1px solid grey;
+	/* text-align: center; */
+
+  }
+
 ol, ul {
 	list-style: none;
 }
@@ -54,13 +42,93 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	color: red;
 }
 
 /* Your code starts here! */
+.logo{
+	display: inline-block;
+}
+.intro-phrase{
+	text-align: right;
+}
+.cta {
+	text-align: right;
+}
+.top {
+	display: inline-block;
+	width: 100%;
+	color: gray;
+	text-align: center;
+}
+h3 {
+	text-align: left; 
+}
+.head-img {
+	padding: 0% 0% 0% 75%;
+}
+.top-core {
+	display: inline-block;
+	width: 90%;
+	height: 15%;
+	text-align: center;
+}
+.middle-img {
+	padding: 0% 0% 0% 32%;
+}
+.bottom-core {
+	display: inline-block;
+	width: 90%;
+	height: 15%;
+	text-align: center;
+	
+}
+
+.features {
+	display: inline-block;
+	width:30%;
+	height:90%
+	
+}
+.about {
+	display: inline-block;
+	width:30%;
+	height:90%;
+	
+	
+}
+.services {
+	display: inline-block;
+	width:30%;
+	height:90%;
+	
+}
+.product {
+	display: inline-block;
+	width:30%;
+	height:90%;
+	
+}
+.vision {
+	display: inline-block;
+	width:30%;
+	height:90%;
+	
+}
+.middle-img {
+	display: inline-block;
+	width: 60%;
+}
+.foot {
+	text-align: left;
+	padding: 15%;
+		
+}
